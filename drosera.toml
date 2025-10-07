@@ -1,0 +1,16 @@
+ethereum_rpc = "https://0xrpc.io/hoodi"
+drosera_rpc = "https://relay.hoodi.drosera.io"
+eth_chain_id = 560048
+drosera_address = "0x91cB447BaFc6e0EA0F4Fe056F5a9b1F14bb06e5D"
+
+[traps.block_milestone]
+path = "out/BlockMilestoneTrap.sol/BlockMilestoneTrap.json"
+response_contract = "0xc2a4e1CDd0C767C0f9D0D00a504BC79d4cEc5E95"
+response_function = "respondOnMilestone(uint256)"
+cooldown_period_blocks = 1
+min_number_of_operators = 1
+max_number_of_operators = 2
+block_sample_size = 1
+private_trap = true
+whitelist = ["0xD8a4724A8F0a7c9a028Ff10527Ea354eC82fE791","0xB521D407c1De7D234e5E4313BAEae812311c3853"]
+address = "0x693fc8Eb2617eb67eC98DC8191E1C81add09380E"
